@@ -51,7 +51,7 @@ nav {
 }
 
 .main-content {
-  margin-left: 3dvw;
+  margin-left: 4.5dvw;
   padding: 20px;
 }
 
@@ -100,7 +100,7 @@ nav {
   background-color:rgb(190, 190, 190);
   border-top-left-radius:8px ;border-top-right-radius:8px ;border-bottom-right-radius:0px ;
   border-bottom-left-radius: 0px;
-  width: 78dvw;
+  width: 77.97dvw;
   position: sticky;
   top: 0;
 }
@@ -190,7 +190,8 @@ display: flex;
       height: 101%;
       padding: 3%;
       border-radius: 0px 0px 12px 10px;
-      h2{font-size: 1.4vb;}
+      h2{font-size: 1.4vw;
+          filter: drop-shadow(0px 10px 6px rgb(22, 86, 88));}
       p{font-size: 1vw;
         margin-left: 2%;}
     }
