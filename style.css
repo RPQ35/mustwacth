@@ -85,13 +85,13 @@ nav {
 }
 
 .movie-card {
-  background-color: #f0f0f0;
-  padding: auto;
+  background-color: #6f868d8e;
+  padding: 1%;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 4%;
   gap: 2%;
-  height: 20dvh;
+  height:28vb;
   width: 95%;
 }
 

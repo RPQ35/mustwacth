@@ -26,10 +26,30 @@ function wind2fun(){
     content.style.display='block';
     loby.style.display='none';
     // bikin code khusus untuk ngebuat foto dan isinya sesuai nama window
+    
+    var imager = document.getElementsByClassName("movief");
+
+    // Loop through each image and update the src
+    for (var x = 0; x < imager.length; x++) {
+        imager[x].src = "foto-anime/anime" + (x + 1) + ".jpg"; // Set the src to foto-drakor/x.png
+    }
+
 }
 
-function wind3fun(){
-    content.style.display='block';
-    loby.style.display='none'; 
-     // bikin code khusus untuk ngebuat foto dan isinya sesuai nama window
+function wind3fun() {
+    content.style.display = 'block';
+    loby.style.display = 'none'; 
+
+    var imager = document.getElementsByClassName("movief");
+
+    // Loop through each image and update the src
+    for (var x = 0; x < imager.length; x++) {
+        imager[x].src = "foto-drakor/" + (x + 1) + ".png"; // Set the src to foto-drakor/x.png
+    }
+
+    
+    // bikin code khusus untuk ngebuat foto dan isinya sesuai nama window
+    //  imager.onclick = function() {
+    // };
+    // ini buat munculin deskripsi setiap foto diklick
 }
