@@ -1,6 +1,7 @@
 var baru = document.getElementsByClassName('nav-item');
 var loby =document.getElementById('loby');
 var content =document.getElementById('main-content-window-user');
+var room_numb;
 
 Array.from(baru).forEach(function(item) {
     item.addEventListener('click', function() {
@@ -10,9 +11,10 @@ Array.from(baru).forEach(function(item) {
         Array.from(baru).forEach(function(innerItem) {
             innerItem.style.backgroundColor = 'transparent';});
 
-        if(value==1){wind1fun();this.style.backgroundColor="#8ABFA3";}
-        else if(value==2){wind2fun();this.style.backgroundColor="#8ABFA3";}
-        else if (value ==3){wind3fun();this.style.backgroundColor="#8ABFA3";}
+        if(value==1){wind1fun();this.style.backgroundColor="#8ABFA3";room_numb=1;}
+        else if(value==2){wind2fun();this.style.backgroundColor="#8ABFA3";room_numb=2;}
+        else if (value ==3){wind3fun();this.style.backgroundColor="#8ABFA3";room_numb=3;}
+        localStorage.setItem("room_number",room_numb);
     });
 });
 

@@ -93,6 +93,8 @@ nav {
   gap: 2%;
   height:28vb;
   width: 95%;
+
+    .movief{object-fit: cover; object-position: 100% 0;width: 98%; height: 98%;border: 1%;}
 }
 
 .list-nav{
